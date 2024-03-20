@@ -1,0 +1,170 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.topbar {
+  height: 100px;
+  background-color: #333;
+  color: white;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo img {
+  max-width: 100px;
+}
+
+.user {
+  margin-right: 20px;
+}
+
+.sidebar {
+  background-color: #4e4545;
+  margin-top: 10px;
+  padding: 20px;
+  width: 200px; 
+  height: calc(100vh - 120px); 
+  float: left;
+}
+
+
+.sidebar h2 {
+  color: #fff;
+  text-align: center;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar ul li {
+  padding: 10px;
+}
+
+.sidebar ul li a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.sidebar ul li ul {
+  display: none;
+}
+
+.sidebar ul li:hover ul {
+  display: block;
+}
+
+.content {
+  margin-left: 220px; 
+  padding: 20px;
+}
+
+.card {
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+.card img {
+  width: 100px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.card-content h3 {
+  margin-bottom: 10px;
+}
+
+.card-content span {
+  font-weight: bold;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+ 
+}
+
+h2 {
+  text-align: center;
+}
+
+.form-group {
+  margin-bottom: 20px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+input[type="file"] {
+  margin-top: 5px;
+}
+
+button[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 50px;
+}
+
+button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th,
+td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+td img {
+  max-width: 50px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.footer {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}

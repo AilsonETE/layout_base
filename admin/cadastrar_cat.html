@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Menu Lateral</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  
+  <div class="topbar">
+    <div class="logo">
+      <img src="img/logo.png" alt="Logo">
+    </div>
+    <div class="user">
+      
+      <span>Usuário Logado</span>
+    </div>
+  </div>
+
+  <div class="sidebar">
+    <h2>Menu</h2>
+    <ul>
+      <li><a href="#">Cadastro de Produtos</a>
+        <ul>
+          <li><a href="#">Cadastrar</a></li>
+          <li><a href="#">Listar</a></li>
+          <li><a href="#">Excluir</a></li>
+          <li><a href="login.html">Login</a></li>
+        </ul>
+      </li>
+      <li><a href="#">Cadastro de Categorias</a>
+        <ul>
+          <li><a href="cadatroCategoria.html">Cadastrar</a></li>
+          <li><a href="listarCategoria.html">Listar</a></li>
+          <li><a href="#">Excluir</a></li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+
+  <div class="content">
+    <h2>Cadastro de Categoria</h2>
+      <form action="#" method="POST" enctype="multipart/form-data">
+        <div class="form-group">
+          <label for="categoria_id">ID:</label>
+          <input type="text" id="categoria_id" name="categoria_id">
+        </div>
+        <div class="form-group">
+          <label for="categoria_nome">Nome da Categoria:</label>
+          <input type="text" id="categoria_nome" name="categoria_nome">
+        </div>
+        <div class="form-group">
+          <label for="categoria_descricao">Descrição:</label>
+          <textarea id="categoria_descricao" name="categoria_descricao"></textarea>
+        </div>
+        <div class="form-group">
+          <label for="categoria_imagem">Imagem:</label>
+          <input type="file" id="categoria_imagem" name="categoria_imagem">
+        </div>
+        <button type="submit">Cadastrar</button>
+      </form>
+  </div>
+ 
+
+  <footer class="footer">
+    <p></p>
+  </footer>
+</body>
+
+</html>
